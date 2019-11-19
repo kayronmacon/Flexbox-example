@@ -1,0 +1,622 @@
+/* Fonts font-family: 'Raleway', sans-serif;*/
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 599px) {
+  .example {
+      background: red;
+    }
+    body {
+        background: pink;
+        display: flex;
+        width: 100%;
+        overflow: scroll;
+        
+      }
+    #header{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        border-radius: 10%;
+       }
+    .nav-link{
+        font-family: 'Audiowide', cursive;
+        font-size: 20px;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }    
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+     
+    }
+    li{
+        margin-right: 25px;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    }
+
+  
+    .logo{
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          overflow: hidden;
+          margin: 10px 10px 50px 10px;
+          box-shadow: 0px 1px white;
+        } 
+    #video {
+        display: flex;
+        width: 93.5%;
+        justify-self: center;
+        margin: 30px 5px 5px 20px;
+        box-shadow: 0px 2px white;
+    }
+    h2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 50px 0px 10px 0px;
+        padding: 70px 0px 30px 0px;
+      
+    }
+    #form {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    #submit{
+        background-color:rgb(253, 235, 212);
+        font-size: 16px;
+        padding: 8px 4px 8px 4px;
+    }
+    #submit:hover{
+        background-color: rgb(248, 226, 197);
+        font-size: 16px;
+        animation-name: mymove;
+        padding: 10px 20px 10px 10px;
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        animation: mymove 2s infinite;
+
+    }
+        @keyframes mymove {
+            0%   {top: 10px; left: 0px; background: rgb(250, 226, 226);}
+            5%   {top: 0px; left: 0px; background: rgb(250, 226, 226);}
+            10%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+            15%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+            20%  {top: 100px; left: 100px; background: rgb(253, 123, 123);}
+            25%  {top: 100px; left: 0px; background: rgb(255, 66, 66);}
+            30% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+            35% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+            40% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+            45% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+            50% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+            55% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+            60% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+            65% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+            70%  {top: 100px; left: 0px; background: rgb(255, 66, 66);}
+            75%  {top: 100px; left: 100px; background: rgb(253, 123, 123);}
+            80%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+            85%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+            90%   {top: 0px; left: 0px; background: rgb(250, 226, 226);}
+            100%   {top: 0px; left: 0px; background: rgb(250, 226, 226);}
+        }
+    #email{
+        background-color:rgb(253, 235, 212);
+        font-size: 14px;
+        padding: 0px 10px 0px 0px;
+        overflow: auto;
+        width: 40%;
+        text-align: center
+    }
+    #email:hover
+    {
+        padding: 0px 10px 0px 0px;
+        width: 45%;
+        font-size: 14px;
+        border: 1px solid #ff0000;
+    }
+}
+   
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .example {
+        background: red;
+      }
+      body {
+          background: pink;
+          display: flex;
+          width: 100%;
+          overflow: scroll;
+          
+        }
+      #header{
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          border-radius: 10%;
+          margin: 0px 0px 40px 0px;
+         }
+      .nav-link{
+          font-family: 'Audiowide', cursive;
+          font-size: 20px;
+          display: flex;
+          width: 100%;
+          flex-direction: row;
+      }    
+      ul{
+          display: flex;
+          flex-direction: row;
+          flex-grow: 1;
+       
+      }
+      li{
+          margin-right: 25px;
+          margin-left: 25px;
+          margin-bottom: 15px;
+      }
+  
+    
+      .logo{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            overflow: hidden;
+            margin: 10px 10px 50px 10px;
+            box-shadow: 0px 1px white;
+          } 
+      #video {
+        display: flex;
+        width: 93.5%;
+        justify-self: center;
+        margin: 30px 5px 5px 20px;
+        box-shadow: 0px 2px white;
+        padding: 0px 0px 50px 0px;
+      }
+      h2 {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          margin: 50px 0px 10px 0px;
+          padding: 70px 0px 30px 0px;
+        
+      }
+      #form {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          margin: 0px 0px 0px 0px;
+          padding: 0px 0px 0px 0px;
+      }
+      #submit{
+          background-color:rgb(253, 235, 212);
+          font-size: 16px;
+          padding: 8px 4px 8px 4px;
+      }
+      #submit:hover{
+          background-color: rgb(248, 226, 197);
+          font-size: 16px;
+          animation-name: mymove;
+          padding: 10px 20px 10px 10px;
+          animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          animation: mymove 2s infinite;
+  
+      }
+          @keyframes mymove {0
+              0%   {top: 10px; left: 0px; background: rgb(250, 226, 226);}
+              5%   {top: 0px; left: 0px; background: rgb(250, 226, 226);}
+              10%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              15%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              20%  {top: 100px; left: 100px; background: rgb(253, 123, 123);}
+              25%  {top: 100px; left: 0px; background: rgb(255, 66, 66);}
+              30% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              35% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              40% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              45% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              50% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              55% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              60% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              65% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              70%  {top: 100px; left: 0px; background: rgb(255, 66, 66);}
+              75%  {top: 100px; left: 100px; background: rgb(253, 123, 123);}
+              80%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              85%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              90%   {top: 0px; left: 0px; background: rgb(250, 226, 226);}
+              100%   {top: 0px; left: 0px; background: rgb(250, 226, 226);}
+          }
+      #email{
+          background-color:rgb(253, 235, 212);
+          font-size: 14px;
+          padding: 0px 10px 0px 0px;
+          overflow: auto;
+          width: 40%;
+          text-align: center
+      }
+      #email:hover
+      {
+          padding: 0px 10px 0px 0px;
+          width: 45%;
+          font-size: 14px;
+          border: 1px solid #ff0000;
+      }
+    }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .example {
+        background: red;
+      }
+      body {
+          background: pink;
+          display: flex;
+          height: auto;
+          width: 100%;
+          overflow: scroll;
+          
+        }
+      #header{
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          border-radius: 10%;
+          margin: 0px 0px 40px 0px;
+         }
+      .nav-link{
+          font-family: 'Audiowide', cursive;
+          font-size: 20px;
+          display: flex;
+          width: 100%;
+          flex-direction: row;
+      }    
+      ul{
+          display: flex;
+          flex-direction: row;
+          flex-grow: 1;
+       
+      }
+      li{
+          margin-right: 25px;
+          margin-left: 25px;
+          margin-bottom: 15px;
+      }
+  
+    
+      .logo{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            overflow: hidden;
+            margin: 10px 10px 50px 10px;
+            box-shadow: 0px 1px white;
+          } 
+      #video {
+        display: block;
+        height: auto;
+        width: 100%;
+        justify-self: center;
+        margin: 30px 5px 5px 20px;
+        box-shadow: 0px 2px white;
+        padding: 0px 0px 50px 0px;
+      }
+      h2 {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          margin: 50px 0px 10px 0px;
+          padding: 70px 0px 30px 0px;
+        
+      }
+      #form {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          margin: 0px 0px 0px 0px;
+          padding: 0px 0px 0px 0px;
+      }
+      #submit{
+          background-color:rgb(253, 235, 212);
+          font-size: 16px;
+          padding: 8px 4px 8px 4px;
+      }
+      #submit:hover{
+          background-color: rgb(248, 226, 197);
+          font-size: 16px;
+          animation-name: mymove;
+          padding: 10px 20px 10px 10px;
+          animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          animation: mymove 2s infinite;
+  
+      }
+          @keyframes mymove {
+              0%   {top: 10px; left: 0px; background: rgb(250, 226, 226);}
+              5%   {top: 0px; left: 0px; background: rgb(250, 226, 226);}
+              10%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              15%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              20%  {top: 100px; left: 100px; background: rgb(253, 123, 123);}
+              25%  {top: 100px; left: 0px; background: rgb(255, 66, 66);}
+              30% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              35% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              40% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              45% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              50% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              55% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              60% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              65% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              70%  {top: 100px; left: 0px; background: rgb(255, 66, 66);}
+              75%  {top: 100px; left: 100px; background: rgb(253, 123, 123);}
+              80%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              85%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              90%   {top: 0px; left: 0px; background: rgb(250, 226, 226);}
+              100%   {top: 0px; left: 0px; background: rgb(250, 226, 226);}
+          }
+      #email{
+          background-color:rgb(253, 235, 212);
+          font-size: 14px;
+          padding: 0px 10px 0px 0px;
+          overflow: auto;
+          width: 40%;
+          text-align: center
+      }
+      #email:hover
+      {
+          padding: 0px 10px 0px 0px;
+          width: 45%;
+          font-size: 14px;
+          border: 1px solid #ff0000;
+      }
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .example {
+        background: red;
+      }
+      body {
+          background: pink;
+          display: flex;
+          width: 100%;
+          overflow: scroll;
+          
+        }
+      #header{
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          overflow: hidden;
+          border-radius: 10%;
+         }
+      .nav-link{
+          font-family: 'Audiowide', cursive;
+          font-size: 20px;
+          display: flex;
+          width: 100%;
+          flex-direction: row;
+      }    
+      ul{
+          display: flex;
+          flex-direction: row;
+          flex-grow: 1;
+       
+      }
+      li{
+          margin-right: 25px;
+          margin-left: 25px;
+          margin-bottom: 15px;
+      }
+  
+    
+      .logo{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            overflow: hidden;
+            margin: 10px 10px 50px 10px;
+            box-shadow: 0px 1px white;
+          } 
+      #video {
+          display: flex;
+          width: 93.5%;
+          justify-self: center;
+          margin: 30px 5px 5px 20px;
+          box-shadow: 0px 2px white;
+      }
+      h2 {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          margin: 50px 0px 10px 0px;
+          padding: 70px 0px 30px 0px;
+        
+      }
+      #form {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          margin: 0px 0px 0px 0px;
+          padding: 0px 0px 0px 0px;
+      }
+      #submit{
+          background-color:rgb(253, 235, 212);
+          font-size: 16px;
+          padding: 8px 4px 8px 4px;
+      }
+      #submit:hover{
+          background-color: rgb(248, 226, 197);
+          font-size: 16px;
+          animation-name: mymove;
+          padding: 10px 20px 10px 10px;
+          animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          animation: mymove 2s infinite;
+  
+      }
+          @keyframes mymove {
+              0%   {top: 10px; left: 0px; background: rgb(250, 226, 226);}
+              5%   {top: 0px; left: 0px; background: rgb(250, 226, 226);}
+              10%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              15%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              20%  {top: 100px; left: 100px; background: rgb(253, 123, 123);}
+              25%  {top: 100px; left: 0px; background: rgb(255, 66, 66);}
+              30% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              35% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              40% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              45% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              50% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              55% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              60% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              65% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              70%  {top: 100px; left: 0px; background: rgb(255, 66, 66);}
+              75%  {top: 100px; left: 100px; background: rgb(253, 123, 123);}
+              80%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              85%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              90%   {top: 0px; left: 0px; background: rgb(250, 226, 226);}
+              100%   {top: 0px; left: 0px; background: rgb(250, 226, 226);}
+          }
+      #email{
+          background-color:rgb(253, 235, 212);
+          font-size: 14px;
+          padding: 0px 10px 0px 0px;
+          overflow: auto;
+          width: 40%;
+          text-align: center
+      }
+      #email:hover
+      {
+          padding: 0px 10px 0px 0px;
+          width: 45%;
+          font-size: 14px;
+          border: 1px solid #ff0000;
+      }
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+      
+    body {
+          background: pink;
+          display: flex;
+          width: 100%;
+          overflow: scroll;
+          
+        }
+      #header{
+          display: grid;
+          justify-content: center;
+          flex-wrap: wrap;
+          overflow: auto;
+          border-radius: 10%;
+         }
+      .nav-link{
+          font-family: 'Audiowide', cursive;
+          font-size: 50px;
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          margin: 25px 20px 0px 20px;
+      }    
+      ul{
+          display: flex;
+          flex-direction: row;
+          flex-grow: 1;
+          flex-direction: column;
+       
+      }
+      li{
+          margin-right: 25px;
+          margin-left: 25px;
+          margin-bottom: 15px;
+      }
+  
+    
+      .logo{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            overflow: hidden;
+            margin: 10px 10px 50px 10px;
+            box-shadow: 0px 1px white;
+          } 
+      #video {
+          display: flex;
+          width: 93.5%;
+          justify-self: center;
+          margin: 30px 5px 5px 20px;
+          box-shadow: 0px 2px white;
+      }
+      h2 {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          margin: 50px 0px 10px 0px;
+          padding: 70px 0px 30px 0px;
+        
+      }
+      #form {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          margin: 0px 0px 0px 0px;
+          padding: 0px 0px 0px 0px;
+      }
+      #submit{
+          background-color:rgb(253, 235, 212);
+          font-size: 16px;
+          padding: 8px 4px 8px 4px;
+      }
+      #submit:hover{
+          background-color: rgb(248, 226, 197);
+          font-size: 16px;
+          animation-name: mymove;
+          padding: 10px 20px 10px 10px;
+          animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          animation: mymove 2s infinite;
+  
+      }
+          @keyframes mymove {
+              0%   {top: 10px; left: 0px; background: rgb(250, 226, 226);}
+              5%   {top: 0px; left: 0px; background: rgb(250, 226, 226);}
+              10%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              15%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              20%  {top: 100px; left: 100px; background: rgb(253, 123, 123);}
+              25%  {top: 100px; left: 0px; background: rgb(255, 66, 66);}
+              30% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              35% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              40% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              45% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              50% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              55% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              60% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              65% {top: 0px; left: 0px; background: rgb(243, 4, 4);}
+              70%  {top: 100px; left: 0px; background: rgb(255, 66, 66);}
+              75%  {top: 100px; left: 100px; background: rgb(253, 123, 123);}
+              80%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              85%  {top: 0px; left: 100px; background:rgb(252, 172, 172);}
+              90%   {top: 0px; left: 0px; background: rgb(250, 226, 226);}
+              100%   {top: 0px; left: 0px; background: rgb(250, 226, 226);}
+          }
+      #email{
+          background-color:rgb(253, 235, 212);
+          font-size: 14px;
+          padding: 0px 10px 0px 0px;
+          overflow: auto;
+          width: 40%;
+          text-align: center
+      }
+      #email:hover
+      {
+          padding: 0px 10px 0px 0px;
+          width: 45%;
+          font-size: 14px;
+          border: 1px solid #ff0000;
+      }
+}
