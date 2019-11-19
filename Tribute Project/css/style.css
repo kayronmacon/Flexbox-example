@@ -1,0 +1,157 @@
+* {
+    background-color: rgb(219, 235, 220);
+}
+body {
+    background-color: linear-gradient;
+    font-family: 'Turret Road', cursive;
+    line-height: 1.5;
+    margin: 0;
+    
+    
+}
+h2 {
+    max-width: 100%;
+    display: flex;  /* originally display: block; */
+    height: auto;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-size: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 2%;
+    padding-bottom:1.5%;
+    position: relative;
+    margin-bottom: -4.0%;
+
+   
+}
+p {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-size: 22px; 
+    font-family: 'Indie Flower', cursive;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 4%;
+   
+    
+   
+
+}
+#image {
+    max-width: 100%;
+    display: flex;  /* originally display: block; */
+    height: auto;
+    justify-self:  center;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    background-color: whitesmoke;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 5%;
+    margin-top: -6%;
+    
+   
+    }
+    img {
+        max-width: 100%;
+    display: flex;  /* originally display: block; */
+    height: auto;
+    }
+
+}
+#main {
+    max-width: 100%;
+    display: flex;  /* originally display: block; */
+    height: auto;
+   background-color:whitesmoke;
+}
+#caption {
+    max-width: 100%;
+    display: flex;  /* originally display: block; */
+    height: auto;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 23px;
+    justify-self: center;
+    text-align: center;
+    padding-top: 10%;
+    margin-top: -9%;
+
+}
+#caption
+{
+    background-color: whitesmoke;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+#tribute-info {
+    max-width: 100%;
+    display: flex;  /* originally display: block; */
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    text-align: left;
+    font-size: 18px;
+    background-color: whitesmoke;
+    line-height: 25.6px;
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+    line-height: 27.6px;
+    margin-top: -5%;
+    margin-bottom: 2%;
+}
+ul {
+    background-color: whitesmoke;
+}
+li {
+    padding-left: 4px;
+    padding-bottom: 18px;
+    background-color: whitesmoke;
+}
+strong{
+    background-color: whitesmoke;
+}
+#tribute-link {
+    background-color: whitesmoke;
+}
+h6 {
+    max-width: 100%;
+    display: flex;  /* originally display: block; */
+    height: auto;
+    font-size: 25px; 
+    justify-content: center;
+    background-color: whitesmoke;
+    text-shadow: 3px 3px rgb(182, 206, 184);
+    align-self: center;
+    padding-top: 1%; 
+    margin-top: 10%;
+}
+h4 {
+   max-width: 100%;
+    display: flex;  /* originally display: block; */
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    text-align: left;
+    font-size: 18px;
+    background-color: whitesmoke;
+    line-height: 25.6px;
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+    line-height: 27.6px;
+    margin-top: -2%;
+    margin-bottom: 2%;
+}
